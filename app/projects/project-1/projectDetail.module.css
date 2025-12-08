@@ -1,0 +1,130 @@
+/* GENERAL */
+.container {
+  background: #dbdbdb;
+  color: rgb(19, 12, 12);
+  min-height: 100vh;
+}
+
+.sectionContainer {
+  background: #eae6e6;        /* blok gelap elegan */
+  padding: 40px;
+  border-radius: 16px;
+  margin-bottom: 60px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* HEADER */
+.header {
+    padding: 40px 10%;
+  display: flex;
+  flex-direction: column;   /* susun vertikal */
+  align-items: center;      /* center horizontal */
+  justify-content: center;  /* center vertical */
+  gap: 15px;                /* jarak antara logo dan teks */
+  text-align: center;       /* teks ikut rata tengah */
+}
+
+
+.logoBox {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.linkprojectm{
+background: white;
+  padding: 8px 12px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.projectTitle{
+    align-items: center;
+}
+.logoImg {
+  width: 45px;
+  height: auto;
+}
+
+.projectTitle h1 {
+  font-size: 2.6rem;
+  margin: 0;
+  font-weight: 800;
+}
+
+.projectTitle p {
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+/* CONTENT */
+.content {
+  padding: 40px 5%;
+}
+
+/* SECTION WRAPPER */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 70px;
+}
+
+/* REVERSE SECTION (foto kanan, teks kiri) */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.sectionImage {
+  flex-shrink: 0;        /* foto tidak boleh mengecil */
+}
+
+.sectionImage img {
+  width: 600px;          /* ukuran tetap */
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}   
+
+.sectionText {
+  flex: 1;               /* teks yang fleksibel */
+  max-width: 600px;      /* batas aman */
+}
+
+/* TEXT */
+.sectionText h2 {
+  font-size: 1.8rem;
+  text-align: justify;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sectionText p,
+.sectionText li {
+  opacity: 0.85;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.sectionText ul {
+  list-style: none;
+  text-align: justify;
+  padding: 0;
+}
+
+/* BACK BUTTON */
+.backBtn {
+  display: inline-block;
+  margin-top: 40px;
+  color: #c7a27c;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.backBtn:hover {
+  color: #e0c19c;
+}

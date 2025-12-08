@@ -1,0 +1,94 @@
+/* GENERAL */
+.container {
+  background: #0f0f0f;
+  color: white;
+  min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+  padding: 40px 10%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoBox {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.logoImg {
+  width: 45px;
+  height: auto;
+}
+
+.projectTitle h1 {
+  font-size: 2.6rem;
+  margin: 0;
+  font-weight: 800;
+}
+
+.projectTitle p {
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+/* CONTENT */
+.content {
+  padding: 40px 10%;
+}
+
+/* SECTION WRAPPER */
+.section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 70px;
+}
+
+/* REVERSE SECTION (foto kanan, teks kiri) */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* IMAGE */
+.sectionImage img {
+  width: 380px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* TEXT */
+.sectionText h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.sectionText p,
+.sectionText li {
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+.sectionText ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* BACK BUTTON */
+.backBtn {
+  display: inline-block;
+  margin-top: 40px;
+  color: #c7a27c;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.backBtn:hover {
+  color: #e0c19c;
+}

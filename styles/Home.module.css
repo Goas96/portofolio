@@ -1,0 +1,199 @@
+/* BASE */
+.container {
+  background: #f5efe6;
+  color: #4a3f35;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 18px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 250, 245, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.navLinks button {
+  margin-left: 20px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #4a3f35;
+  transition: 0.3s;
+}
+
+.navLinks button:hover {
+  color: #c7a27c;
+}
+
+/* HERO SECTION */
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background:linear-gradient(135deg, #8d8b8b 50%, #000000 20%, #d2cece 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* LEFT TEXT */
+.leftText {
+  flex: 1;
+  z-index: 2;
+  position: relative;
+} 
+
+.heroName {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.heroRole {
+  font-size: 1.4rem;
+  color: #ffab57;
+  margin-bottom: 20px;
+}
+
+.heroDesc {
+  font-size: 1.1rem;
+  color: #000000;
+  opacity: 0.85;
+  max-width: 450px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.btnPrimary {
+  padding: 12px 32px;
+  background: #ffa143;
+  border: none;
+  border-radius: 8px;
+  color: #0f0f0f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnPrimary:hover {
+  background: #b48c66;
+}
+
+/* RIGHT IMAGE — FOTO BESAR TANPA FRAME */
+.rightImage {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.heroPhoto {
+  width: 720px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0; /* tanpa frame */
+  transform: translateX(120px); /* keluar dari layout */
+  opacity: 0.95;
+}
+/* ABOUT */
+.about {
+  padding: 80px 10%;
+}
+
+.sectionTitle {
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutText {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 80px 10%;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.projectCard {
+  background: #fffdf9;
+  text-align: center;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.projectCard h2 {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.projectCard p {
+  text-align: center;
+}
+
+.projectCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.projectCard img {
+  width: 150px;          /* ukuran seragam */
+  height: 150px;
+  object-fit: contain;   /* gambar tidak terpotong */
+  display: block;
+  margin: 0 auto 15px;   /* center */
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 25px;
+  background: #efe7dd;
+  opacity: 0.7;
+  margin-top: 50px;
+}
