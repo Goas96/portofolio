@@ -35,9 +35,9 @@ export default function Home() {
           <div className={styles.heroContent}>
             <div className={styles.leftText} data-aos="fade-right">
               <h1 className={styles.heroName}>Faza Fawwaz Fauzil Adlim</h1>
-              <h2 className={styles.heroRole}>Web Developer • UI/UX Designer</h2>
+              <h2 className={styles.heroRole}> • Analyst • </h2>
               <p className={styles.heroDesc}>
-                Saya membangun website modern, cepat, dan berkelas dengan sentuhan desain maskulin yang elegan.
+                saya seorang analyst yang sangat suka dengan hal yang berhubungan data
               </p>
 
               <button
